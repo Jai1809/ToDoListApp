@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ToDoList" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#6A0DAD</item>
+        <item name="colorPrimaryVariant">#4B0082</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <item name="colorSecondary">#FFD700</item>
+        <item name="colorSecondaryVariant">#B89B03</item>
+        <item name="colorOnSecondary">#000000</item>
+
+        <item name="android:colorBackground">#F2F2F2</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#000000</item>
+
+        <item name="android:statusBarColor">#4B0082</item>
+        <item name="android:navigationBarColor">#E0E0E0</item>
+
+        <item name="android:popupElevation">8dp</item>
+
+        <item name="android:textColorPrimary">#222222</item>
+
+        <item name="buttonStyle">@style/CustomButton</item>
+    </style>
+
+    <style name="CustomButton" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="backgroundTint">#6A0DAD</item>
+    </style>
+
+
+</resources>
