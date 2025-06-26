@@ -21,8 +21,7 @@
             android:textColor="@color/black"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:paddingStart="8dp" />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/deleteButton"
